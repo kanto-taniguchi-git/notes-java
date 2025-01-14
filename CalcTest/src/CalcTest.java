@@ -134,7 +134,7 @@ public class CalcTest {
 		j = j << 2;
 		System.out.println("00000101を左に2ビットシフトした結果" + j);
 		
-		k = k >> 2;  // 右シフトで移動後の左側は最上位ビットで埋まるが、javaでは符号ビットは左側にコピーされない
+		k = k >> 2;  // 右シフトで移動後の左側は最上位ビットで埋まる
 		System.out.println("10000000を右に2ビットシフトした結果" + k);
 		
 		System.out.println("参考サイト：https://www.sejuku.net/blog/13030");
