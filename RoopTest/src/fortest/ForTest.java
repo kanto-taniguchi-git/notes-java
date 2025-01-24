@@ -10,8 +10,9 @@ public class ForTest {
 			System.out.println(i);
 		}
 		
-		System.out.println("1回目のループ終了");  // 前置インクリメント
+		System.out.println("1回目のループ終了");  
 		
+		// 前置インクリメント
 		for(int j = 0; j < 10; ++j) {  // j < 10は継続条件
 			System.out.println(j);
 		}
